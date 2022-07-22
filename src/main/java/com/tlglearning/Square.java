@@ -23,7 +23,11 @@ public final class Square {
    * @throws IllegalArgumentException When {@code input} is negative.
    */
   public static boolean isPerfectSquare(long input) throws IllegalArgumentException {
+    if(input < 0){
+      throw new IllegalArgumentException();
+    }
     throw new UnsupportedOperationException("Not yet implemented"); // TODO Replace with implementation.
+    //remove this line ^
   }
 
 }
